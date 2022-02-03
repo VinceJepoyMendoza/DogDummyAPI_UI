@@ -1,0 +1,72 @@
+[
+  {
+    "name": "limit",
+    "description": "limits the results. if limit is bigger than the result, this query will be negated and just return all result",
+    "values": "number(Number)"
+  },
+  {
+    "name": "sort",
+    "description": "returns result in ascending or descending alphabetical order.",
+    "values": "\"asc\", \"desc\""
+  },
+  {
+    "name": "search",
+    "description": "returns all values that includes or match the query's value",
+    "values": "dog name(String)"
+  },
+  {
+    "name": "color",
+    "description": "returns all dogs by colors that includes or matched the query's value. space ' ' is converted to underscore \"_\" and \"&\" to dash/minus sign \"-\". Example: \"Black_Brown-White\" to \"Black Brown & White\"",
+    "values": "color(String)"
+  },
+  {
+    "name": "minLifeExpectancy",
+    "description": "returns all dogs that has minimum life expectancy of >= query's value",
+    "values": "number(Number)"
+  },
+  {
+    "name": "maxLifeExpectancy",
+    "description": "returns all dogs that has maximum life expectancy of <= query's value",
+    "values": "number(Number)"
+  },
+  {
+    "name": "maleMinHeight",
+    "description": "returns all dogs that minimun male height are >= to query's value",
+    "values": "number(Number)"
+  },
+  {
+    "name": "maleMaxHeight",
+    "description": "returns all dogs that maximun male height are <= to query's value",
+    "values": "number(Number)"
+  },
+  {
+    "name": "femaleMinHeight",
+    "description": "returns all dogs that minimun female height are >= to query's value",
+    "values": "number(Number)"
+  },
+  {
+    "name": "femaleMaxHeight",
+    "description": "returns all dogs that maximun female height are <= to query's value",
+    "values": "number(Number)"
+  },
+  {
+    "name": "maleMinWeight",
+    "description": "returns all dogs that minimun male weight are >= to query's value",
+    "values": "number(Number)"
+  },
+  {
+    "name": "maleMaxWeight",
+    "description": "returns all dogs that maximum male weight are <= to query's value",
+    "values": "number(Number)"
+  },
+  {
+    "name": "femaleMinWeight",
+    "description": "returns all dogs that minimun female weight are >= to query's value",
+    "values": "number(Number)"
+  },
+  {
+    "name": "femaleMaxWeight",
+    "description": "returns all dogs that maximum female weight are <= to query's value",
+    "values": "number(Number)"
+  }
+]

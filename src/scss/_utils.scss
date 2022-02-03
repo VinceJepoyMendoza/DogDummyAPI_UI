@@ -1,0 +1,110 @@
+.flew-center-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+// Font weights
+.fw-sm {
+  font-weight: 300;
+}
+.fw-normal {
+  font-weight: 400;
+}
+.fw-md {
+  font-weight: 500;
+}
+.fw-lg {
+  font-weight: 600;
+}
+
+// Hovers
+.hover-secondary {
+  transition: color 0.3s ease-in-out;
+
+  &:hover,
+  &:focus {
+    color: $blue-light !important;
+  }
+}
+.hover-primary {
+  transition: color 0.3s ease-in-out;
+
+  &:hover,
+  &:focus {
+    color: $primary !important;
+  }
+}
+// Title with underline
+.title-underline {
+  position: relative;
+  font-size: 1.2rem;
+  text-align: center;
+  color: $secondary;
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -0.75rem;
+    left: 50%;
+    width: 50px;
+    transform: translateX(-50%);
+    height: 3px;
+    background: $primary;
+  }
+}
+
+@media screen and (max-width: $md) {
+  .title-underline {
+    font-size: 1rem;
+  }
+  .lead {
+    font-size: 1rem !important;
+  }
+}
+
+.sample-codes {
+  pre {
+    // background: rgba($primary, 0.7);
+    font-size: 1.1rem;
+  }
+}
+
+// Codes theme
+.code-methods {
+  color: $blue-code;
+}
+
+.code-string {
+  color: $yellow-code;
+}
+
+.posCenter {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+// Cards
+.card2 {
+  color: #fff;
+
+  img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+  }
+
+  .card-img-overlay {
+    background: rgba(#000, 0.4);
+    h6 {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      height: 100%;
+    }
+  }
+}

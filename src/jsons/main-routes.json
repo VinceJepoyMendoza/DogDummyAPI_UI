@@ -1,0 +1,30 @@
+[
+  {
+    "method": "GET",
+    "path": "dogs",
+    "link": "https://dogdummyapi.herokuapp.com/dogs",
+    "title": "Get all dogs",
+    "length": 21
+  },
+  {
+    "method": "GET",
+    "path": "categories",
+    "link": "https://dogdummyapi.herokuapp.com/categories",
+    "title": "Get all categories",
+    "length": 7
+  },
+  {
+    "method": "GET",
+    "path": "colors",
+    "link": "https://dogdummyapi.herokuapp.com/colors",
+    "title": "Get all colors",
+    "length": 98
+  },
+  {
+    "method": "GET",
+    "path": "images",
+    "link": "https://dogdummyapi.herokuapp.com/images",
+    "title": "Get all images",
+    "length": 21
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "link": "/dogs",
+    "title": "Get all dogs",
+    "description": "Returns all dogs. familiy_life and personality properties are interpret by numbers/levels 1 to 5. the higher the value the more effective/recommended the value.",
+    "queries": ["sort"]
+  },
+  {
+    "link": "/dogs/filter?search=te",
+    "title": "Search dogs by name",
+    "description": "Return all dogs that name includes the search query value in this case the \"te\"",
+    "queries": null
+  },
+  {
+    "link": "/dogs/filter?color=Black_Brown",
+    "title": "Search dogs by color",
+    "description": "Return all dogs that include the color query value",
+    "queries": null
+  },
+  {
+    "link": "/dogs/filter?limit=17",
+    "title": "Limit dog's result",
+    "description": "Limits dogs result to 17",
+    "queries": null
+  },
+  {
+    "link": "/dog/id/15",
+    "title": "Get single dog by id",
+    "description": null,
+    "queries": null
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "link": "/dogs/filter?",
+    "title": "Get filtered dogs",
+    "description": "Filter route will only work if given a query, see available queries below",
+    "queries": [
+      "limit",
+      "sort",
+      "search",
+      "color",
+      "minLifeExpectancy",
+      "maxLifeExpectancy",
+      "maleMinHeight",
+      "maleMaxHeight",
+      "femaleMinHeight",
+      "femaleMaxHeight",
+      "maleMinWeight",
+      "maleMaxWeight",
+      "femaleMinWeight",
+      "femaleMaxWeight"
+    ]
+  },
+  {
+    "link": "/dog/name/Labrador Retriever",
+    "title": "Get single dog by name",
+    "description": "Dog's name is case insensitive and if name is more than one word spaces are represented by space ' ' ",
+    "queries": null
+  },
+  {
+    "link": "/categories",
+    "title": "Get all categories",
+    "description": null,
+    "queries": null
+  },
+  {
+    "link": "/categories/hound",
+    "title": "Get all dogs from category",
+    "description": null,
+    "queries": ["sort"]
+  },
+  {
+    "link": "/categories/hound/filter?",
+    "title": "Get filtered dogs from a category",
+    "description": "Filter route will only work if given a query, see available queries below",
+    "queries": [
+      "limit",
+      "sort",
+      "search",
+      "color",
+      "minLifeExpectancy",
+      "maxLifeExpectancy",
+      "maleMinHeight",
+      "maleMaxHeight",
+      "femaleMinHeight",
+      "femaleMaxHeight",
+      "maleMinWeight",
+      "maleMaxWeight",
+      "femaleMinWeight",
+      "femaleMaxWeight"
+    ]
+  },
+  {
+    "link": "/colors",
+    "title": "Get all colors",
+    "description": "colors are initially sorted in ascending order",
+    "queries": null
+  },
+  {
+    "link": "/colors/filter?",
+    "title": "Get all filterd colors",
+    "description": "Filter route will only work if given a query, see available queries below",
+    "queries": ["sort", "limit", "search"]
+  },
+  {
+    "link": "/images",
+    "title": "Get all images",
+    "description": null,
+    "queries": null
+  },
+  {
+    "link": "/image/Border_Collies.jpg",
+    "title": "Get single image",
+    "description": "Dog's name is case sensitive and if name is more than one word spaces are represented by underscore '_' and must end with '.jpg' key",
+    "queries": null
+  }
+]

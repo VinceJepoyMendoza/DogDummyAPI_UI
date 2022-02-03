@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+@import './variables';
+@import './customization';
+@import './components/mixins';
+@import './utils';
+
+// components
+@import './components/buttons';
+
+// Bootstrap styles
+@import '~bootstrap/scss/bootstrap';
+
+body {
+  background: $bg-primary;
+}
+
+.navbar-brand img {
+  width: 40px;
+  height: 40px;
+}
+
+#doc-sidebar {
+  overflow-y: scroll;
+  height: 100vh;
+  display: block;
+}
+
+.doc-links {
+  overflow-x: auto;
+}
+
+#doc-table {
+  th,
+  td {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+}
+
+#scrollToTopBtn {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  border-radius: 50%;
+  padding: 0.5rem 0.75rem;
+  transform: translateX(calc(100% + 1rem));
+  transition: all 0.3s ease-in-out;
+}
